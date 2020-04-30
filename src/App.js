@@ -24,8 +24,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <p><img className='App-logo' src={logo} /></p>
-        <h1>Monster Rolodex</h1>
+        <h1><img className='App-logo' src={logo} alt='logo' /> Monster Rolodex</h1>
         <SearchBox placeholder='Search Monsters' onSearch={e => this.setState({searchfield: e.target.value})} />
         <CardList monsters={filteredMonsters} />
       </div>

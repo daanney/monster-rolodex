@@ -4,15 +4,18 @@
 
 h1 {
   font-size: 128px;
-  margin: 0;
+  line-height: 150px;
+  margin: 0 0 20px 0;
   font-family: 'Bigelow Rules';
   color: #61dafb;
   font-weight: 100;
 }
 
 .App-logo {
-  height: 20vmin;
+  /*height: 20vmin;*/
+  height: 150px;
   pointer-events: none;
+  vertical-align: middle;
 }
 
 @media (prefers-reduced-motion: no-preference) {
