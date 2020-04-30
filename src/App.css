@@ -2,8 +2,16 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 128px;
+  margin: 0;
+  font-family: 'Bigelow Rules';
+  color: #61dafb;
+  font-weight: 100;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
